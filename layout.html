@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+body{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container {
+	width: 100%;
+	max-width:542px;  
+	text-align:center;
+	margin:0;
+	float:left;
+} 
+#container ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position:relative;
+}  
+#container ul ul.src {
+	margin:5px;
+	padding:5px 10px 10px 10px;
+	top:1.7em;
+	width:250px;
+	display:none;
+	left:-999em;
+	z-index:10;	
+	position:absolute;
+	color:black;
+	font-weight:normal;
+	text-align:left;
+	background-color:white;
+    border:1px solid #000;
+	background-color:white; 
+}  
+#container ul ul.src p {
+	text-decoration:none;
+	color:#666666;
+}  
+#container ul ul.src h2 {
+	text-align:left;
+	margin:5px;
+	padding:5px;
+	color:blue;
+	font-size:12px;
+}  
+#container ul ul.src .citation {
+	margin:2.5px;
+	padding:2.5px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:10px;
+}
+#container ul ul.src .citation img {
+	display:none;
+}
+#container .box {
+	text-align:center;
+    font-size:10px;
+    width:125px;
+	line-height:15px;
+    border:1px solid #000;
+    margin:auto;
+	background-color:#e8e8e8;
+	padding:5px;
+ }
+#container .box p.boxName,
+#container .box p.boxDesc,
+#container .wife-box p.boxName {
+	margin:0px;
+	padding:0px;
+}
+#container .box p:hover,
+#container .box p:focus,
+#container .wife-box p:hover,
+#container .wife-box p:focus {
+	color: gray;
+}
+#container .box p.boxName {
+	max-width:125px;		
+	overflow:hidden;		
+	white-space:nowrap;		
+	text-overflow:ellipsis; 
+	display:inline-block; 
+	padding-top: 5px;
+}
+#container .box p.boxName a {
+	text-decoration:none;
+	color:black;
+}
+#container .box p.boxName a:hover {
+	color:	blue;
+}
+#container .box p.boxDesc {
+    font-size:10px;
+	max-width:125px;		
+	overflow:hidden;		
+	white-space:nowrap;		
+	text-overflow:ellipsis; 
+	display:inline-block;   
+}
+#container .wife-box {
+	text-align:center;
+    font-size:10px;
+    width:115px;
+    line-height:15px;
+    margin:5px auto auto auto;
+ }
+#container .wife-box p.boxName {
+	max-width:215px;		
+	overflow:hidden;		
+	white-space:nowrap;		
+	text-overflow:ellipsis; 
+	display:inline-block;   
+ }
+#container .v-line {
+    font-size:0;
+    width:1px;
+    height:30px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+	z-index:5;
+}
+#container .v-line-rin {
+    font-size:0;
+    width:1px;
+    height:30px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+/*	margin-left:195px; 
+	float:left; */
+	margin-left:20%;
+	float:left;
+	z-index:5;
+}
+#container .v-line-kin,
+#container .v-line-kin-solo {
+    font-size:0;
+    width:1px;
+    height:30px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+	display:inline; 
+/*	margin-left:331px; 
+	float:left; */
+	margin-right:20%;
+	float:right;
+	z-index:5;
+}
+#container .h-line {
+    font-size:0;
+/*    width:339px; */
+	width:auto;
+    height:1px;
+    color:#fff;
+    background-color:#000;    
+    margin-left:20%;
+    margin-right:20%;
+	z-index:5;
+ }
+#container .clear {
+    clear:both;
+}
+
+@media only screen and (min-width:599px) {
+	#container .box {
+		font-size:10px;
+		width:155px;
+		line-height:15px;
+	}
+	#container .box p.boxName {
+		max-width:155px;		
+	 }
+	#container .box p.boxDesc {
+		font-size:10px;
+		max-width:155px;		
+	}
+	#container .wife-box {
+		font-size:10px;
+		width:150px;
+		line-height:15px;
+	}
+}
+@media only screen and (min-width:799px) {
+	#container .box {
+		font-size:12px;
+		width:215px;
+		line-height:17.5px;
+	}
+	#container .box p.boxName {
+		max-width:215px;		
+	 }
+	#container .box p.boxDesc {
+		font-size:12px;
+		max-width:215px;		
+	}
+	#container .wife-box {
+		font-size:12px;
+		width:200px;
+		line-height:17.5px;
+	}
+	#container ul ul.src {
+		width:350px;
+	}
+	#container ul ul.src h2 {
+		font-size:14px;
+	}  
+	#container ul ul.src .citation {
+		margin:5px;
+		padding:5px;
+		font-size:12px;
+	}
+}
+    </style>
+</head>
+<body>
+    {0}
+</body>
+</html>
